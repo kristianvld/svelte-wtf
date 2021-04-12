@@ -233,11 +233,12 @@ npm run dev
 <br/>
 
 ## Om du har spørsmål eller bare vil chatte:
-### Discord: `null#3702`
-#### `Kristian in't Veld` på Abakus Discord
-### Abakus Slack: `Kristian in't Veld`
+### <u>Discord</u>: `null#3702`
+* Abakus Discord: `Kristian in't Veld`
+* Eller still spørsmål i `#koseprogg`
+### Abakus <u>Slack</u>: `Kristian in't Veld`
 
 <br/>
 
-Slides og eksempel prosjekt finnes her:
+Slides og eksempel prosjekt finnes her: \
 https://github.com/kristianvld/svelte-wtf
