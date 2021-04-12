@@ -23,9 +23,9 @@ Date:   Thu Mar 4 03:27:28 2021 +0100
 <br><br><br><br><br><hr><br><br><br><br><br>
 
 ## Dagens mål:
-* Hva er svelte
-* Hva er sapper
-* Hvorfor bry seg?
+* Hva er Svelte
+* Hva er Sapper
+* Hvorfor bry seg om performance?
 * Et par eksempler
 * Nok kunnskap til å starte et nytt prosjekt
 
@@ -166,6 +166,7 @@ Men svelte bryr seg ikke! Svelte er en compiler tross alt!
 
 <br><br><br><br><br><hr><br><br><br><br><br>
 
+## Måling av User Experience:
 https://rethinking-reactivity.surge.sh/#slide=24 \
 https://rethinking-reactivity.surge.sh/#slide=25
 
@@ -184,17 +185,20 @@ https://github.com/kristianvld/abakusrevyen-streamsite
 
 ## SSR vs CSR?
 
-SSR (Server-Side Rendering):
+### SSR (Server-Side Rendering):
 ```html
 <h1>Hello World!</h1>
 ```
+`Server -> Browser -> DOM`
+<br/>
 
-CSR (Client-Side Rendering):
+### CSR (Client-Side Rendering):
 ```javascript
 const h1 = document.createElement('h1');
 h1.innerText = 'Hello World!';
 document.body.appendChild(h1);
 ```
+`Server -> Browser -> Javascript Engine -> DOM`
 
 
 <br><br><br><br><br><hr><br><br><br><br><br>
@@ -210,6 +214,11 @@ npm install
 npm run dev
 # Åpne http://localhost:3000
 ```
+
+<br><br><br><br><br><hr><br><br><br><br><br>
+
+## _Så har me juksa litt_
+## [sapper-eksempel](./sapper-eksempel/)
 
 <br><br><br><br><br><hr><br><br><br><br><br>
 
