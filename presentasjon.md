@@ -230,9 +230,14 @@ npm run dev
 ### [svelte.dev](https://svelte.dev)
 ### [sapper.svelte.dev](https://sapper.svelte.dev/)
 
-<br>
+<br/>
 
 ## Om du har spørsmål eller bare vil chatte:
 ### Discord: `null#3702`
 #### `Kristian in't Veld` på Abakus Discord
 ### Abakus Slack: `Kristian in't Veld`
+
+<br/>
+
+Slides og eksempel prosjekt finnes her:
+https://github.com/kristianvld/svelte-wtf
